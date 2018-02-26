@@ -16,6 +16,7 @@
 package com.example.android.asynctaskloader.utilities;
 
 import android.net.Uri;
+import android.util.Log;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -52,6 +53,7 @@ public class NetworkUtils {
                 .appendQueryParameter(PARAM_QUERY, githubSearchQuery)
                 .appendQueryParameter(PARAM_SORT, sortBy)
                 .build();
+        Log.v(NetworkUtils.class.getSimpleName(),builtUri.toString());
 
         URL url = null;
         try {

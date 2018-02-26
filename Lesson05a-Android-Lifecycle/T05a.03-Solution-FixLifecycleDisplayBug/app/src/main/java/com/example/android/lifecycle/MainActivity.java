@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity {
+public class mMainActivity extends AppCompatActivity {
 
     /*
      * This tag will be used for logging. It is best practice to use the class's name using
